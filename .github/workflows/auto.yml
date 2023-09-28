@@ -2,7 +2,7 @@ name: Auto
 
 on:
   schedule:
-    - cron: "0 6-12 * * *" # 北京时间上午6:00到12:00之间的任何时间
+    - cron: 0 0 22 * * ?" # 每天十点执行一次
   workflow_dispatch:
 
 env:
